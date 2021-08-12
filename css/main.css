@@ -86,20 +86,65 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  /*---------------UNIVERSAL STYLES--------------*/
+/*---General Styles---*/
 
+/*-------------Fonts-----------------
 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+------------------------------------*/
+
+html {
+  font-size: 16px
+}
+  
+body {
+  Font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+  
+ul, ol {
+  list-style: none;
+}
+  
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+  
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+  
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+}
+  
+address {
+  font-style: normal;
+}
+  
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  font-family: sans-serif;
 }
 
 /***** Header - Footer Styles *****/
 
 header, footer {
   background: #202322;
-  color:#fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +163,7 @@ header .content-wrapper {
   margin: 0;
 }
 .header-divider {
-  border-bottom:#222 1px solid;
+  border-bottom:#e2e3ed 1px solid;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -175,7 +220,7 @@ footer .copyright {
 
 /***** Hero Area Styles *****/
 .hero-area {
-  background: papayawhip;
+  background: darkslategray;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -193,7 +238,7 @@ aside {
    /***** Features *****/
 
 .features {
-  background: papayawhip;
+  background: darkslategray;
   display: flex;
   justify-content: center;
   flex-flow: row-wrap;
