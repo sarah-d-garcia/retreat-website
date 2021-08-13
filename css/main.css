@@ -201,6 +201,7 @@ header nav ul{
   justify-content: space-around;
   width: 100%;
   padding: 0; /*---had to remove padding on left side---*/
+  margin: 0; /*---had to remove margin top/bottom---*/
 }
 
 footer {
@@ -648,6 +649,10 @@ input[type=button] {
         width: 45%;
       }
 
+      .map figure {
+        padding-bottom: 45%; 
+      }
+
       .contact-section .content-wrapper h2 {
         width: 80%;
       }
@@ -757,7 +762,9 @@ input[type=button] {
           width: 95%;
           font-size: 3em;
       }
-
+      .map figure {
+        padding-bottom: 36%; 
+      }
       .contact-content h4 {
         font-size: 1.875em;
       }
