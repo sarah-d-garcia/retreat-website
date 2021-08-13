@@ -143,6 +143,14 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /***** Header - Footer Styles *****/
 
 header, footer {
@@ -151,6 +159,14 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
 }
 
 header {
@@ -227,7 +243,9 @@ footer .copyright {
 
 /***** Hero Area Styles *****/
 .hero-area {
-  background: darkslategray;
+  background: url('../img/hero-image.jpg') center no-repeat darkslategray;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -278,7 +296,8 @@ input[type=button] {
    /***** Features *****/
 
 .features {
-  background: darkslategray;
+  background: url('../img/features-image.jpg') center no-repeat darkslategray;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row-wrap;
@@ -470,6 +489,10 @@ input[type=button] {
         margin: 100px 0;
       }
 
+      header figure {
+        width: 30%;
+      }
+
       h2 {
         font-size: 2.25em;
         line-height: 1.33;
@@ -506,6 +529,9 @@ input[type=button] {
 
       /* Hero Area */
 
+      .hero-area {
+        min-height: 600px;
+      }
       .hero-area h1 {
         font-size: 3em;
         line-height: 1;
@@ -554,11 +580,12 @@ input[type=button] {
         width: 85%;
       }
 
+      .reviews article figure,
       .reviews article div {
-        width: 49%;
+        width: 47%;
       }
 
-      reviews h3 {
+      .reviews h3 {
         width: 75%;
         margin: 0;
       }
