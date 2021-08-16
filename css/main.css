@@ -598,10 +598,10 @@ input[type=button] {
       }
 
       .features article {
-        display: flexbox; /* had to use flexbox to stack icons over descriptions */
+        display: flex; 
         justify-content: center;
         align-items: center;
-        flex-flow: column-wrap;
+        flex-flow: row wrap;
         flex-basis: 50%;
       }
 
