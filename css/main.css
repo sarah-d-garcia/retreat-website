@@ -237,6 +237,7 @@ footer .social-icons p{
   justify-content: center;
   align-items: center;
   margin: 0 15px;
+  flex-shrink: 0;
 }
 
 footer i {
