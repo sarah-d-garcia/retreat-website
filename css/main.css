@@ -314,13 +314,20 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   flex-flow: row wrap;
 }
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
 }
+
 
     /***** Reviews Styles *****/
 .reviews {
@@ -740,7 +747,7 @@ input[type=button] {
       .features article {
           flex-basis: 33%;
       }
-    
+
       /* Reviews */ 
 
       .reviews h2 {
